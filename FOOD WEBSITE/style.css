@@ -964,12 +964,20 @@ footer .me span{
 ::-webkit-scrollbar{
     width: 13px;
 }
- ::-webkit-scrollbar-track{
-    border-radius: 15px;
-    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
- }
+::-webkit-scrollbar-track{
+   border-radius: 15px;
+   box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
 
- ::-webkit-scrollbar-thumb{
-    background: orange;
-    border-radius: 15px;
- }
+::-webkit-scrollbar-thumb{
+   background: orange;
+   border-radius: 15px;
+}
+/*
+@media screen and (max-width: 2000px) {
+  body{
+       background-color: red;
+   }
+   section .about
+}
+ */
